@@ -14,13 +14,13 @@ def outlookEmail(**kwargs):
          "contentType": "Text",
         "content": body
          },
-        #  "Attachments": [
-        #         {
-        #         "@odata.type": "#Microsoft.OutlookServices.FileAttachment",
-        #         "Name": "menu.csv",
-        #         "ContentBytes": b64_string
-        #     }
-        #     ],
+        "Attachments": [
+              {
+                "@odata.type": "#Microsoft.OutlookServices.FileAttachment",
+                "Name": "menu.csv",
+                 "ContentBytes": b64_string
+             }
+             ],
             "toRecipients": [
         {
         "emailAddress": {
